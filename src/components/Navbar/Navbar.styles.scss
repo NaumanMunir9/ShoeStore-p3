@@ -1,0 +1,15 @@
+.navbar-container {
+  display: flex;
+  background-color: beige;
+  margin: 10px;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+      margin: 10px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.shoes-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+
+  .shoe-title {
+    font-size: 20px;
+  }
+
+  .shoe-image {
+    width: 150px;
+  }
+}
