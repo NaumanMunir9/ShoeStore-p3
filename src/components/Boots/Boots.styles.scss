@@ -1,0 +1,44 @@
+.shoes-container {
+  h1 {
+    margin: 20px;
+  }
+
+  .product-shoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 20px;
+    margin: 30px 100px;
+
+    .mapped-shoes {
+      box-shadow: 0 1px 6px grey;
+      border-radius: 5px;
+      cursor: pointer;
+
+      .shoes-title {
+        margin-bottom: 10px;
+        text-decoration: none;
+      }
+
+      .shoes-image {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+
+    @media (max-width: 800px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 600px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 480px) {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+}
