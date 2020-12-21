@@ -8,9 +8,9 @@ const Oxford = () => {
   const { image, name } = singleOxford;
 
   return (
-    <div>
-      <img src={image} alt={name} />
-      <h1>{name}</h1>
+    <div className="shoe-container">
+      <img className="shoe-image" src={image} alt={name} />
+      <h1 className="shoe-title">{name}</h1>
     </div>
   );
 };
